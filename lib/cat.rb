@@ -1,6 +1,6 @@
 class Cat
   attr_reader :name
-  attr_accessor :mood,nervous
+  attr_accessor_with_default :mood,nervous
   
   def initialize(name)
     @name = name
