@@ -8,7 +8,7 @@ class Cat
   end
   
   def mood
-    @mood
+    self.mood
   end
   
 end
